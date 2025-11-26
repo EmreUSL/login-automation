@@ -1,0 +1,36 @@
+
+Login Test Senaryosu
+
+
+- Valid Login
+
+Valid username
+Valid password
+Login buton tıkla
+Ana menünün açıldığını doğrula
+
+- Invalid login
+
+Valid username
+invalid password
+login buton tıkla
+invalid credential hatası
+
+invalid username
+valid password
+login buton tıkla
+invalid credential hatası
+
+empty username
+valid password
+
+valid username
+empty password
+
+
+1 - Admin, admin123
+2 - Admin, admin1234
+3 - Addmin, admin123
+4 - (Empty) , admin123
+5 - Admin , (Empty)
+6 - (Empty) , (Empty)
