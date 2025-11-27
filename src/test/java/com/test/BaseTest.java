@@ -1,6 +1,4 @@
 package com.test;
-
-
 import com.utils.DriverFactory;
 import com.utils.DriverManager;
 import com.utils.DriverType;
@@ -9,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseTest {
 
-    private DriverManager driverManager;
+    protected DriverManager driverManager;
 
     @BeforeMethod
     public void setUp() {
